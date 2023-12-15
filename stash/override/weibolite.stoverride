@@ -5,8 +5,8 @@ http:
   mitm:
     - "*api.weibo*"
     - "*.uve.weibo.com"
-	- "new.vip.weibo.cn"
-	- "boot.biz.weibo.com"
+    - "new.vip.weibo.cn"
+    - "boot.biz.weibo.com"
   rewrite:
     - ^https?:\/\/api\.weibo\.cn\/\d\/ad\/preload - reject-dict
     - ^https?:\/\/api\.weibo\.cn\/\d\/cardlist\?v_f=.*Weibo_intl - reject-dict
