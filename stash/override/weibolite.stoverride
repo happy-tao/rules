@@ -19,10 +19,6 @@ http:
     - ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/hot\/hours_spotlight - reject-dict
     - ^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php\?a=hot_search_users - reject-dict
     - ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/ad\/weibointl\? url reject-dict
-    -
-    -
-    -
-    -
   script:
     - match: ^https?:\/\/api\.weibo\.cn\/\d\/groups\/allgroups\/v\d
       name: weibo_json
